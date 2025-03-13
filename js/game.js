@@ -1,14 +1,12 @@
 let canvas;
-let character = new Image();
 let ctx;
+let character = new MoveableObject();
+
 
 function init() {
     canvas = document.getElementById('canvas');
     ctx = canvas.getContext('2d');
-    character.src = '/assets/img/1.Sharkie/1.IDLE/1.png';
-setTimeout(() => {
-    ctx.drawImage(character, 20, 20, 50, 150); 
-}, timeout =2000);
 
+    console.log('My Character is',character);
 
 }
