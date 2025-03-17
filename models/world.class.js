@@ -7,7 +7,13 @@ class World{
        new JellyFish(),
     ];
 
+    ctx;
+    constructor(canvas){
+        this.ctx = canvas.getContext('2d');
+        this.draw();
+    }
+
     draw(){
-        console.log('Drawing the world');
+        this.ctx.drawImage(this.character.img, this.character.x,  this.character.y, this.character.height, this.character.width);
     }
 }
