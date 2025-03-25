@@ -6,7 +6,7 @@ class World{
        new JellyFish(),
        new JellyFish(),
     ];
-    
+
     backgroundObjects = [
         new BackgroundObject('assets/img/3.Background/Layers/2.Floor/D.png', 0), 
         new BackgroundObject('assets/img/3.Background/Layers/3.Fondo 1/D.png',0 ),
