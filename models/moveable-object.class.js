@@ -5,7 +5,6 @@ class MoveableObject {
     height = 150;
     width = 200;
 
-//loadImage ('imag/test.png)
     loadImg(imgPath) {
         this.img = new Image(); // this.img = document.getElementById('img');
         this.img.src = imgPath;
